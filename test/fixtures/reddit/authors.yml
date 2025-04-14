@@ -1,0 +1,14 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined. If you add columns to the
+# model remove the "{}" from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+reddit_author_one:
+  name: 'Reddit Poster 1'
+reddit_author_two:
+  name: 'Reddit Poster 2'
+reddit_author_three:
+  name: 'Reddit Commenter 1'
+reddit_author_four:
+  name: 'Reddit Commenter 2'

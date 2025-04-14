@@ -1,0 +1,58 @@
+<div class="grid grid-cols-1 gap-3 w-full">
+  <%= form_with model: @search, id: 'play-store-form', html: { class: 'w-full' }, data: { turbo_stream: true } do |form| %>
+    <h1>Play Store Reviews</h1>
+    <div class="space-y-8 divide-y divide-gray-200 sm:space-y-5">
+      <div class="space-y-6 sm:space-y-5">
+        <p>Search Play Store Reviews
+          or <%= link_to 'view rating history', play_store_sentiment_path, class: yass(:link) %>
+        </p>
+        <div class="lg:border-t lg:grid lg:grid-cols-5 space-y-6 space-y-5">
+          <div class="sm:pt-5 sm:items-center sm:col-span-3">
+            <%= form.va_text_field :query,
+                                   label: 'Query',
+                                   hint: 'Search keyword or phrase. Leave blank for all',
+                                   message_aria_describedby: 'Search keyword or phrase. Leave blank for all',
+                                   show_input_error: true
+            %>
+          </div>
+          <div class="space-y-6 space-y-5 sm:col-span-2">
+            <div class="sm:grid sm:items-start sm:gap-4 sm:border-gray-200 sm:pt-5 sm:items-center">
+              <%= form.va_select :rating,
+                                 options_for_select([['All', ''], ['1 Star', 1], ['2 Stars', 2], ['3 Stars', 3], ['4 Stars', 4], ['5 Stars', 5]]),
+                                 {},
+                                 aria_live_region_text: 'You selected',
+                                 value: '',
+                                 label: 'Rating',
+                                 width: '2xl',
+                                 message_aria_describedby: 'Select app rating',
+                                 width: '2xl' %>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:grid lg:grid-cols-5 lg:items-center space-y-6 lg:space-y-0">
+          <div class="space-y-6 sm:space-y-5 sm:col-span-3">
+            <div class="sm:grid sm:items-start sm:gap-4 sm:border-gray-200 sm:pt-5 sm:items-center">
+              <div class="mt-2 sm:col-span-2 mt-0 flex flex-row space-x-2">
+                <%= form.va_date :start_date, label: 'Oldest Date', value: Time.now.strftime("%Y-%m-%d") %>
+              </div>
+            </div>
+          </div>
+          <div class="space-y-6 space-y-5 sm:col-span-2">
+            <div class="sm:grid lg:grid-cols-4 sm:items-start sm:gap-4 sm:items-center">
+              <div class="mt-2 sm:col-span-2 lg:col-span-3 mt-0 flex flex-row space-x-2">
+                <%= form.va_date :end_date, label: 'Most Recent Date', value: Time.now.strftime("%Y-%m-%d") %>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sm:pt-5">
+          <%= form.va_submit 'Search' %>
+        </div>
+      </div>
+    </div>
+  <% end %>
+  <div id="<%= dom_id(@search, :response) %>"></div>
+</div>
+

@@ -1,0 +1,453 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://play.google.com/_/PlayStoreUi/data/batchexecute?_reqid=1065213&authuser&bl=boq_playuiserver_20190903.08_p0&f.sid=-697906427155521722&gl=us&hl=en&rpcids=qnKhOb&soc-app=121&soc-device=1&soc-platform=1
+    body:
+      encoding: UTF-8
+      string: f.req=%5B%5B%5B%22UsvDTd%22%2C%22%5Bnull%2Cnull%2C%5B2%2C2%2C%5B1%2Cnull%2Cnull%5D%2Cnull%2C%5B%5D%5D%2C%5B%5C%22gov.va.mobileapp%5C%22%2C7%5D%5D%22%2Cnull%2C%22generic%22%5D%5D%5D
+    headers:
+      Accept:
+      - "*/*"
+      User-Agent:
+      - rest-client/2.1.0 (darwin22 arm64) ruby/3.2.1p31
+      Content-Length:
+      - '180'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - play.google.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - Mon, 01 Jan 1990 00:00:00 GMT
+      Date:
+      - Fri, 09 Feb 2024 19:01:30 GMT
+      Content-Disposition:
+      - attachment; filename="response.bin"; filename*=UTF-8''response.bin
+      X-Content-Type-Options:
+      - nosniff
+      P3p:
+      - CP="This is not a P3P policy! See g.co/p3phelp for more info."
+      Strict-Transport-Security:
+      - max-age=31536000
+      Content-Security-Policy:
+      - require-trusted-types-for 'script';report-uri /_/PlayStoreUi/cspreport
+      Permissions-Policy:
+      - ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*,
+        ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factor=*, ch-ua-platform=*, ch-ua-platform-version=*
+      Accept-Ch:
+      - Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List,
+        Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factor, Sec-CH-UA-Platform,
+        Sec-CH-UA-Platform-Version
+      Cross-Origin-Resource-Policy:
+      - same-site
+      Cross-Origin-Opener-Policy:
+      - same-origin-allow-popups
+      Server:
+      - ESF
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Set-Cookie:
+      - NID=511=s5UpsnXkS8dRSoeFBHkj2SKmZ1aMnZQKWtauuHPore6ABXvw_eqvuab5O2XY9VdwtnqtlKw8Nji40ntimkSJFYPIfqhSDkCxTkw_yoEh7kbaYP5Vcm9604zbN-VWS3DlU0hSyBx5LwUC2vBeLAY2Gt3cX1RrWX1nV4cezqispXw;
+        expires=Sat, 10-Aug-2024 19:01:30 GMT; path=/; domain=.google.com; HttpOnly
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        )]}'
+
+        [["wrb.fr","UsvDTd","[[[\"d06a5a7c-1885-4cab-a4a9-0bdaabb498c8\",[\"Tracy Dinardo\",[null,2,null,[null,null,\"https://play-lh.googleusercontent.com/a-/ALV-UjViK0vO_1_JNfyaJXXNX4YD9G5U8ZgPMjvfQEUOUXAWWHjY\"]]],5,null,\"So far, I like it and have no trouble to report.\",[1707327863,795000000],0,null,null,[\"112496639277127435205\",\"Tracy Dinardo\",null,[[null,2,null,[null,null,\"https://play-lh.googleusercontent.com/a-/ALV-UjViK0vO_1_JNfyaJXXNX4YD9G5U8ZgPMjvfQEUOUXAWWHjY\"]],true],[null,2,null,[null,null,\"https://play-lh.googleusercontent.com/Yq7oyNIvAAkuc69fG51sbAQS4otJxbObbt3xdr8tXxXyUdq4tVGtfgeKuptveGdP1srxaHVrNPzOYcfaEQ\"]]],\"2.20.0\",null,null,null,null,null,1]],[null,\"CoEBCn8KfTAsVElNRVNUQU1QICIyMDI0LTAyLTA4IDE3OjQ0OjIzLjc5NTU2MCswMCIsMTIwODAwMzA3MTk4LCJodHRwOi8vbWFya2V0LmFuZHJvaWQuY29tL2RldGFpbHM_aWQ9djI6Z292LnZhLm1vYmlsZWFwcDoxIiwxLGZhbHNl\"]]",null,null,null,"generic"],["di",80],["af.httprm",79,"-5036470932386835139",3]]
+  recorded_at: Fri, 09 Feb 2024 19:01:30 GMT
+- request:
+    method: post
+    uri: https://play.google.com/_/PlayStoreUi/data/batchexecute?_reqid=1065213&authuser&bl=boq_playuiserver_20190903.08_p0&f.sid=-697906427155521722&gl=us&hl=en&rpcids=qnKhOb&soc-app=121&soc-device=1&soc-platform=1
+    body:
+      encoding: UTF-8
+      string: f.req=%5B%5B%5B%22UsvDTd%22%2C%22%5Bnull%2Cnull%2C%5B2%2C2%2C%5B1%2Cnull%2C%5C%22CoEBCn8KfTAsVElNRVNUQU1QICIyMDI0LTAyLTA4IDE3OjQ0OjIzLjc5NTU2MCswMCIsMTIwODAwMzA3MTk4LCJodHRwOi8vbWFya2V0LmFuZHJvaWQuY29tL2RldGFpbHM_aWQ9djI6Z292LnZhLm1vYmlsZWFwcDoxIiwxLGZhbHNl%5C%22%2Cnull%5D%2Cnull%2C%5B%5D%5D%2C%5B%5C%22gov.va.mobileapp%5C%22%2C7%5D%5D%22%2Cnull%2C%22generic%22%5D%5D%5D
+    headers:
+      Accept:
+      - "*/*"
+      User-Agent:
+      - rest-client/2.1.0 (darwin22 arm64) ruby/3.2.1p31
+      Content-Length:
+      - '371'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - play.google.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - Mon, 01 Jan 1990 00:00:00 GMT
+      Date:
+      - Fri, 09 Feb 2024 19:01:30 GMT
+      Content-Disposition:
+      - attachment; filename="response.bin"; filename*=UTF-8''response.bin
+      X-Content-Type-Options:
+      - nosniff
+      P3p:
+      - CP="This is not a P3P policy! See g.co/p3phelp for more info."
+      Strict-Transport-Security:
+      - max-age=31536000
+      Cross-Origin-Resource-Policy:
+      - same-site
+      Permissions-Policy:
+      - ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*,
+        ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factor=*, ch-ua-platform=*, ch-ua-platform-version=*
+      Accept-Ch:
+      - Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List,
+        Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factor, Sec-CH-UA-Platform,
+        Sec-CH-UA-Platform-Version
+      Cross-Origin-Opener-Policy:
+      - same-origin-allow-popups
+      Content-Security-Policy:
+      - require-trusted-types-for 'script';report-uri /_/PlayStoreUi/cspreport
+      Server:
+      - ESF
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Set-Cookie:
+      - NID=511=e1Ve-RqakDKnjR656vJEMGBlKbus3waAAt6wTXy906LC73Tnm9hu_0e9A6fkgRBBJ_ofeLqXnJBdVL3cVUlXzMRR7ZDw_pbSTF6au5E0okcgH2o9stV-YMpCfNQ215m1MWPGq5BAr-QDq3IS-rYTtWhkMZ_iL9zAeOceyc9MvGg;
+        expires=Sat, 10-Aug-2024 19:01:30 GMT; path=/; domain=.google.com; HttpOnly
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        )]}'
+
+        [["wrb.fr","UsvDTd","[[[\"2e095819-e5c2-44e6-9434-24b638fb675e\",[\"Edward Foust\",[null,2,null,[null,null,\"https://play-lh.googleusercontent.com/a-/ALV-UjXeTtrsvalWGxTbAnheTrDAqT0ArP3sAFGxok13zW3wDnU\"]]],2,null,\"will not let me download my award letter with 5g 5 bar connection????\",[1707324124,858000000],0,null,null,[\"115253178513605468934\",\"Edward Foust\",null,[[null,2,null,[null,null,\"https://play-lh.googleusercontent.com/a-/ALV-UjXeTtrsvalWGxTbAnheTrDAqT0ArP3sAFGxok13zW3wDnU\"]],true],[null,2,null,[null,null,\"https://play-lh.googleusercontent.com/Yq7oyNIvAAkuc69fG51sbAQS4otJxbObbt3xdr8tXxXyUdq4tVGtfgeKuptveGdP1srxaHVrNPzOYcfaEQ\"]]],\"2.20.0\",null,null,null,null,null,1]],[null,\"CoEBCn8KfTAsVElNRVNUQU1QICIyMDI0LTAyLTA4IDE2OjQyOjA0Ljg1ODc5OCswMCIsODA3MDYwNjk4MjIyLCJodHRwOi8vbWFya2V0LmFuZHJvaWQuY29tL2RldGFpbHM_aWQ9djI6Z292LnZhLm1vYmlsZWFwcDoxIiwxLGZhbHNl\"]]",null,null,null,"generic"],["di",83],["af.httprm",83,"-166704658161473201",3]]
+  recorded_at: Fri, 09 Feb 2024 19:01:30 GMT
+- request:
+    method: post
+    uri: https://play.google.com/_/PlayStoreUi/data/batchexecute?_reqid=1065213&authuser&bl=boq_playuiserver_20190903.08_p0&f.sid=-697906427155521722&gl=us&hl=en&rpcids=qnKhOb&soc-app=121&soc-device=1&soc-platform=1
+    body:
+      encoding: UTF-8
+      string: f.req=%5B%5B%5B%22UsvDTd%22%2C%22%5Bnull%2Cnull%2C%5B2%2C2%2C%5B1%2Cnull%2C%5C%22CoEBCn8KfTAsVElNRVNUQU1QICIyMDI0LTAyLTA4IDE2OjQyOjA0Ljg1ODc5OCswMCIsODA3MDYwNjk4MjIyLCJodHRwOi8vbWFya2V0LmFuZHJvaWQuY29tL2RldGFpbHM_aWQ9djI6Z292LnZhLm1vYmlsZWFwcDoxIiwxLGZhbHNl%5C%22%2Cnull%5D%2Cnull%2C%5B%5D%5D%2C%5B%5C%22gov.va.mobileapp%5C%22%2C7%5D%5D%22%2Cnull%2C%22generic%22%5D%5D%5D
+    headers:
+      Accept:
+      - "*/*"
+      User-Agent:
+      - rest-client/2.1.0 (darwin22 arm64) ruby/3.2.1p31
+      Content-Length:
+      - '371'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - play.google.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - Mon, 01 Jan 1990 00:00:00 GMT
+      Date:
+      - Fri, 09 Feb 2024 19:01:30 GMT
+      Content-Disposition:
+      - attachment; filename="response.bin"; filename*=UTF-8''response.bin
+      X-Content-Type-Options:
+      - nosniff
+      P3p:
+      - CP="This is not a P3P policy! See g.co/p3phelp for more info."
+      Strict-Transport-Security:
+      - max-age=31536000
+      Cross-Origin-Resource-Policy:
+      - same-site
+      Permissions-Policy:
+      - ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*,
+        ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factor=*, ch-ua-platform=*, ch-ua-platform-version=*
+      Cross-Origin-Opener-Policy:
+      - same-origin-allow-popups
+      Accept-Ch:
+      - Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List,
+        Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factor, Sec-CH-UA-Platform,
+        Sec-CH-UA-Platform-Version
+      Content-Security-Policy:
+      - require-trusted-types-for 'script';report-uri /_/PlayStoreUi/cspreport
+      Server:
+      - ESF
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Set-Cookie:
+      - NID=511=gTj1YOOZlTHmMGAOJkOOKqa0fkzX6qvfGSdGrAV5BV19cXYQ1lRupRSlC8cCQhLMUZZERRG81sPJSPF8V6XqhhVtWAPYcVWQB4bCTsNOKrvIg9DvA9Twowc_kpoDhgJCiRd8J3O6P48TwSZg81NW6gBG_P0JmevjWWhnfyrc-K4;
+        expires=Sat, 10-Aug-2024 19:01:30 GMT; path=/; domain=.google.com; HttpOnly
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        )]}'
+
+        [["wrb.fr","UsvDTd","[[[\"e4996375-ef86-430f-85f7-54df81d343d9\",[\"Mr. Allan\",[null,2,null,[null,null,\"https://play-lh.googleusercontent.com/a-/ALV-UjXiSO1r37UcQwF9HxelUzS12691DmVUlLazDaBkJaUfKQ\"]]],3,null,\"App is working pretty well, except after the latest update appointments aren't loading.\",[1707323986,917000000],0,null,null,[\"100008715088582771834\",\"Mr. Allan\",null,[[null,2,null,[null,null,\"https://play-lh.googleusercontent.com/a-/ALV-UjXiSO1r37UcQwF9HxelUzS12691DmVUlLazDaBkJaUfKQ\"]],true],[null,2,null,[null,null,\"https://play-lh.googleusercontent.com/Yq7oyNIvAAkuc69fG51sbAQS4otJxbObbt3xdr8tXxXyUdq4tVGtfgeKuptveGdP1srxaHVrNPzOYcfaEQ\"]]],\"2.20.0\",null,null,null,null,null,1]],[null,\"CoABCn4KfDAsVElNRVNUQU1QICIyMDI0LTAyLTA4IDE2OjM5OjQ2LjkxNzQzMyswMCIsNzYxMTAxMDIxMjgsImh0dHA6Ly9tYXJrZXQuYW5kcm9pZC5jb20vZGV0YWlscz9pZD12Mjpnb3YudmEubW9iaWxlYXBwOjEiLDEsZmFsc2U\"]]",null,null,null,"generic"],["di",67],["af.httprm",67,"-4291068382583615267",3]]
+  recorded_at: Fri, 09 Feb 2024 19:01:30 GMT
+- request:
+    method: post
+    uri: https://play.google.com/_/PlayStoreUi/data/batchexecute?_reqid=1065213&authuser&bl=boq_playuiserver_20190903.08_p0&f.sid=-697906427155521722&gl=us&hl=en&rpcids=qnKhOb&soc-app=121&soc-device=1&soc-platform=1
+    body:
+      encoding: UTF-8
+      string: f.req=%5B%5B%5B%22UsvDTd%22%2C%22%5Bnull%2Cnull%2C%5B2%2C2%2C%5B1%2Cnull%2C%5C%22CoABCn4KfDAsVElNRVNUQU1QICIyMDI0LTAyLTA4IDE2OjM5OjQ2LjkxNzQzMyswMCIsNzYxMTAxMDIxMjgsImh0dHA6Ly9tYXJrZXQuYW5kcm9pZC5jb20vZGV0YWlscz9pZD12Mjpnb3YudmEubW9iaWxlYXBwOjEiLDEsZmFsc2U%5C%22%2Cnull%5D%2Cnull%2C%5B%5D%5D%2C%5B%5C%22gov.va.mobileapp%5C%22%2C7%5D%5D%22%2Cnull%2C%22generic%22%5D%5D%5D
+    headers:
+      Accept:
+      - "*/*"
+      User-Agent:
+      - rest-client/2.1.0 (darwin22 arm64) ruby/3.2.1p31
+      Content-Length:
+      - '370'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - play.google.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - Mon, 01 Jan 1990 00:00:00 GMT
+      Date:
+      - Fri, 09 Feb 2024 19:01:30 GMT
+      Content-Disposition:
+      - attachment; filename="response.bin"; filename*=UTF-8''response.bin
+      X-Content-Type-Options:
+      - nosniff
+      P3p:
+      - CP="This is not a P3P policy! See g.co/p3phelp for more info."
+      Strict-Transport-Security:
+      - max-age=31536000
+      Cross-Origin-Resource-Policy:
+      - same-site
+      Content-Security-Policy:
+      - require-trusted-types-for 'script';report-uri /_/PlayStoreUi/cspreport
+      Permissions-Policy:
+      - ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*,
+        ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factor=*, ch-ua-platform=*, ch-ua-platform-version=*
+      Accept-Ch:
+      - Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List,
+        Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factor, Sec-CH-UA-Platform,
+        Sec-CH-UA-Platform-Version
+      Cross-Origin-Opener-Policy:
+      - same-origin-allow-popups
+      Server:
+      - ESF
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Set-Cookie:
+      - NID=511=o5_I7uFCvIfGhdJ9IGkbcxQAFr6a_xIhJZu-XyLb9M1FhwltJQqHmF8Y4DAZKx_ZspXT81z7f7esc1rc7BBC2jAwkXt9VQA8Z1ik3g-tN-yN0de35j2tYWc0iBqI7-9hm9g-p9I3SXcG0yS07noN0LSzrnbE6mugFZ1BlRDv5rA;
+        expires=Sat, 10-Aug-2024 19:01:30 GMT; path=/; domain=.google.com; HttpOnly
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        )]}'
+
+        [["wrb.fr","UsvDTd","[[[\"aa918283-86c7-48a6-98ab-1061df54a5c5\",[\"Rick Sullivan\",[null,2,null,[null,null,\"https://play-lh.googleusercontent.com/a/ACg8ocLgq5tLVqlDP_smEuxY-uh6ncGnGu0bK4U_snFYQg-P\\u003dmo\"]]],5,null,\"I always get great service from the VA and Dr Rao and his staff.\",[1707314261,970000000],0,null,null,[\"107819909432007466054\",\"Rick Sullivan\",null,[[null,2,null,[null,null,\"https://play-lh.googleusercontent.com/a/ACg8ocLgq5tLVqlDP_smEuxY-uh6ncGnGu0bK4U_snFYQg-P\\u003dmo\"]],true],[null,2,null,[null,null,\"https://play-lh.googleusercontent.com/Yq7oyNIvAAkuc69fG51sbAQS4otJxbObbt3xdr8tXxXyUdq4tVGtfgeKuptveGdP1srxaHVrNPzOYcfaEQ\"]]],\"2.20.0\",null,null,null,null,null,1]],[null,\"CoEBCn8KfTAsVElNRVNUQU1QICIyMDI0LTAyLTA4IDEzOjU3OjQxLjk3MDcwMiswMCIsODM0NTM1MTY1OTE5LCJodHRwOi8vbWFya2V0LmFuZHJvaWQuY29tL2RldGFpbHM_aWQ9djI6Z292LnZhLm1vYmlsZWFwcDoxIiwxLGZhbHNl\"]]",null,null,null,"generic"],["di",98],["af.httprm",97,"-8373120602134367648",4]]
+  recorded_at: Fri, 09 Feb 2024 19:01:30 GMT
+- request:
+    method: post
+    uri: https://play.google.com/_/PlayStoreUi/data/batchexecute?_reqid=1065213&authuser&bl=boq_playuiserver_20190903.08_p0&f.sid=-697906427155521722&gl=us&hl=en&rpcids=qnKhOb&soc-app=121&soc-device=1&soc-platform=1
+    body:
+      encoding: UTF-8
+      string: f.req=%5B%5B%5B%22UsvDTd%22%2C%22%5Bnull%2Cnull%2C%5B2%2C2%2C%5B1%2Cnull%2C%5C%22CoEBCn8KfTAsVElNRVNUQU1QICIyMDI0LTAyLTA4IDEzOjU3OjQxLjk3MDcwMiswMCIsODM0NTM1MTY1OTE5LCJodHRwOi8vbWFya2V0LmFuZHJvaWQuY29tL2RldGFpbHM_aWQ9djI6Z292LnZhLm1vYmlsZWFwcDoxIiwxLGZhbHNl%5C%22%2Cnull%5D%2Cnull%2C%5B%5D%5D%2C%5B%5C%22gov.va.mobileapp%5C%22%2C7%5D%5D%22%2Cnull%2C%22generic%22%5D%5D%5D
+    headers:
+      Accept:
+      - "*/*"
+      User-Agent:
+      - rest-client/2.1.0 (darwin22 arm64) ruby/3.2.1p31
+      Content-Length:
+      - '371'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - play.google.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - Mon, 01 Jan 1990 00:00:00 GMT
+      Date:
+      - Fri, 09 Feb 2024 19:01:30 GMT
+      Content-Disposition:
+      - attachment; filename="response.bin"; filename*=UTF-8''response.bin
+      X-Content-Type-Options:
+      - nosniff
+      P3p:
+      - CP="This is not a P3P policy! See g.co/p3phelp for more info."
+      Strict-Transport-Security:
+      - max-age=31536000
+      Content-Security-Policy:
+      - require-trusted-types-for 'script';report-uri /_/PlayStoreUi/cspreport
+      Accept-Ch:
+      - Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List,
+        Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factor, Sec-CH-UA-Platform,
+        Sec-CH-UA-Platform-Version
+      Cross-Origin-Opener-Policy:
+      - same-origin-allow-popups
+      Permissions-Policy:
+      - ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*,
+        ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factor=*, ch-ua-platform=*, ch-ua-platform-version=*
+      Cross-Origin-Resource-Policy:
+      - same-site
+      Server:
+      - ESF
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Set-Cookie:
+      - NID=511=Am2PaaftpwhX2VztfZ8bG7pZ61E3bDQPBXBeZctAqVl2hIqostqi268dA0UiBSiGAXeRvh0DBN2PjmYqNwxZD_9BYDOoOHx7KCjl4tNZF0kcQmPxPx7m2NgQgnU28K2ceEaMqUF2BuV7Fr8fO1x6LoWf2C8Co05TnUR71M_cTG0;
+        expires=Sat, 10-Aug-2024 19:01:30 GMT; path=/; domain=.google.com; HttpOnly
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        )]}'
+
+        [["wrb.fr","UsvDTd","[[[\"2b7ea6c8-79f0-4f5f-aa44-d640aaf3aa32\",[\"Diana Lewis\",[null,2,null,[null,null,\"https://play-lh.googleusercontent.com/a/ACg8ocJBsYP2W9VLQ8EkVZvXod8E7pTkfWExf4TdHAQpmSGE\\u003dmo\"]]],2,null,\"Okay folks if you're a veteran and you forget your damn password is the most horrible thing to have to try to authenticate yourself with the id.me cuz I still haven't been able to do it but I'm sure this app is good if you remember your password\",[1707281257,969000000],0,null,null,[\"113165233257163864120\",\"Diana Lewis\",null,[[null,2,null,[null,null,\"https://play-lh.googleusercontent.com/a/ACg8ocJBsYP2W9VLQ8EkVZvXod8E7pTkfWExf4TdHAQpmSGE\\u003dmo\"]],true],[null,2,null,[null,null,\"https://play-lh.googleusercontent.com/Yq7oyNIvAAkuc69fG51sbAQS4otJxbObbt3xdr8tXxXyUdq4tVGtfgeKuptveGdP1srxaHVrNPzOYcfaEQ\"]]],\"2.20.0\",null,null,null,null,null,1]],[null,\"CoMBCoABCn4wLFRJTUVTVEFNUCAiMjAyNC0wMi0wOCAwNDo0NzozNy45NjkzMjkrMDAiLDEwMDk4NTk0MzcxNjAsImh0dHA6Ly9tYXJrZXQuYW5kcm9pZC5jb20vZGV0YWlscz9pZD12Mjpnb3YudmEubW9iaWxlYXBwOjEiLDEsZmFsc2U\"]]",null,null,null,"generic"],["di",58],["af.httprm",57,"5159651891038967521",3]]
+  recorded_at: Fri, 09 Feb 2024 19:01:30 GMT
+- request:
+    method: post
+    uri: https://play.google.com/_/PlayStoreUi/data/batchexecute?_reqid=1065213&authuser&bl=boq_playuiserver_20190903.08_p0&f.sid=-697906427155521722&gl=us&hl=en&rpcids=qnKhOb&soc-app=121&soc-device=1&soc-platform=1
+    body:
+      encoding: UTF-8
+      string: f.req=%5B%5B%5B%22UsvDTd%22%2C%22%5Bnull%2Cnull%2C%5B2%2C2%2C%5B1%2Cnull%2C%5C%22CoEBCn8KfTAsVElNRVNUQU1QICIyMDI0LTAyLTA4IDAxOjQ3OjAyLjkwODMwMSswMCIsODg2NjEzMjcyMzczLCJodHRwOi8vbWFya2V0LmFuZHJvaWQuY29tL2RldGFpbHM_aWQ9djI6Z292LnZhLm1vYmlsZWFwcDoxIiwxLGZhbHNl%5C%22%2Cnull%5D%2Cnull%2C%5B%5D%5D%2C%5B%5C%22gov.va.mobileapp%5C%22%2C7%5D%5D%22%2Cnull%2C%22generic%22%5D%5D%5D
+    headers:
+      Accept:
+      - "*/*"
+      User-Agent:
+      - rest-client/2.1.0 (darwin22 arm64) ruby/3.2.1p31
+      Content-Length:
+      - '371'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - play.google.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - Mon, 01 Jan 1990 00:00:00 GMT
+      Date:
+      - Fri, 09 Feb 2024 19:01:30 GMT
+      Content-Disposition:
+      - attachment; filename="response.bin"; filename*=UTF-8''response.bin
+      X-Content-Type-Options:
+      - nosniff
+      P3p:
+      - CP="This is not a P3P policy! See g.co/p3phelp for more info."
+      Strict-Transport-Security:
+      - max-age=31536000
+      Content-Security-Policy:
+      - require-trusted-types-for 'script';report-uri /_/PlayStoreUi/cspreport
+      Cross-Origin-Opener-Policy:
+      - same-origin-allow-popups
+      Permissions-Policy:
+      - ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*,
+        ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factor=*, ch-ua-platform=*, ch-ua-platform-version=*
+      Cross-Origin-Resource-Policy:
+      - same-site
+      Accept-Ch:
+      - Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List,
+        Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factor, Sec-CH-UA-Platform,
+        Sec-CH-UA-Platform-Version
+      Server:
+      - ESF
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Set-Cookie:
+      - NID=511=uuSjQ4txqZWPcL1dP0jh1g52oSECwrbX4mhUr7e2z-N8_fzkdh64Uq8v-L_B0siN9WBNfF1e6IOIV3H_HOGkWAYeweBNR8BbTHB3cX-WYG0LM8xkWbMQozTY5GteeMbUUTLoxC_YYztKVYYRsGbYezW0C7wKRSftwypxFful5ik;
+        expires=Sat, 10-Aug-2024 19:01:30 GMT; path=/; domain=.google.com; HttpOnly
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        )]}'
+
+        [["wrb.fr","UsvDTd","[[[\"8cb81e14-14dd-4d46-8ccc-732fca2252bf\",[\"John Rymer\",[null,2,null,[null,null,\"https://play-lh.googleusercontent.com/a-/ALV-UjVtox8wFDpaCqt0USpMQgC0hj-RaLKUAJVWZZ1zEAiR-YYH\"]]],2,null,\"there's always something, some aspect of the app wont be working.\",[1707134396,433000000],0,null,null,[\"115377344095743133457\",\"John Rymer\",null,[[null,2,null,[null,null,\"https://play-lh.googleusercontent.com/a-/ALV-UjVtox8wFDpaCqt0USpMQgC0hj-RaLKUAJVWZZ1zEAiR-YYH\"]],true],[null,2,null,[null,null,\"https://play-lh.googleusercontent.com/Yq7oyNIvAAkuc69fG51sbAQS4otJxbObbt3xdr8tXxXyUdq4tVGtfgeKuptveGdP1srxaHVrNPzOYcfaEQ\"]]],\"2.20.0\",null,null,null,null,null,1]],[null,\"CoEBCn8KfTAsVElNRVNUQU1QICIyMDI0LTAyLTA3IDIyOjUwOjAxLjQzMzcyOSswMCIsNDM4MDc1Mjk5NjU1LCJodHRwOi8vbWFya2V0LmFuZHJvaWQuY29tL2RldGFpbHM_aWQ9djI6Z292LnZhLm1vYmlsZWFwcDoxIiwxLGZhbHNl\"]]",null,null,null,"generic"],["di",159],["af.httprm",159,"-3384677796656034776",3]]
+  recorded_at: Fri, 09 Feb 2024 19:01:31 GMT
+recorded_with: VCR 6.2.0

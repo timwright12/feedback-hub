@@ -1,0 +1,67 @@
+<div class="grid grid-cols-1 w-full">
+  <div class="">
+    <h1>Rating History</h1>
+    <div class="divide-y divide-gray-200">
+      <p>Search <%= @search.class.name.underscore.split('/').first.titleize %> Sentiment
+        or <%= link_to 'search through reviews', [:new, @search], class: yass(:link) %>
+      </p>
+    </div>
+    <%= turbo_frame_tag dom_id(@search, :sentiment) do %>
+      <%= form_with url: [@search.class.name.underscore.split('/').first.to_sym, :sentiment], method: :get, html: { class: 'w-full' } do |form| %>
+        <div class="sm:pt-1">
+          <div class="lg:border-t lg:grid lg:grid-cols-5 lg:items-center space-y-6 lg:space-y-0">
+            <div class="space-y-6 sm:space-y-5 sm:col-span-3">
+              <div class="sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:items-center">
+                <div class="mt-2 sm:col-span-2 mt-0 flex flex-row space-x-2">
+                  <%= form.va_date :start_date, label: 'Oldest Date', value: Time.now.strftime("%Y-%m-%d") %>
+                </div>
+              </div>
+            </div>
+            <div class="space-y-6 space-y-5 sm:col-span-2">
+              <div class="sm:grid sm:grid-cols-3 lg:grid-cols-4 sm:items-start sm:gap-4 sm:items-center">
+                <div class="mt-2 sm:col-span-2 lg:col-span-3 mt-0 flex flex-row space-x-2">
+                  <%= form.va_date :end_date, label: 'Most Recent Date', value: Time.now.strftime("%Y-%m-%d") %>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sm:pt-10">
+            <%= form.va_submit 'Search' %>
+          </div>
+        </div>
+      <% end %>
+      <br>
+      <div class="border-l-2 border-l-gray-400 border-r-2 border-r-gray-400 border-b-2 border-b-gray-400" data-controller="tabs" data-tabs-active-tab-class="-mb-px bg-transparent border-t-4 border-t-blue-600 border-b-0 border-b-transparent text-black-500">
+        <div class="list-reset flex border-t-2 border-t-gray-400">
+          <div class="hover:cursor-pointer border-r-2 border-r-gray-400 border-l-0 bg-gray-200 border-b-2 border-b-gray-400" data-tabs-target="tab" data-action="click->tabs#change">
+            <p class="inline-block bg-transparent px-12 my-2 font-semibold no-underline" role="tab">Chat</p>
+          </div>
+          <div class="hover:cursor-pointer border-r-2 border-r-gray-400 border-l-0 bg-gray-200 border-b-2 border-b-gray-400" data-tabs-target="tab" data-action="click->tabs#change">
+            <p class="inline-block bg-transparent px-12 my-2 font-semibold no-underline" role="tab">Charts</p>
+          </div>
+          <div class="hover:cursor-pointer bg-gray-200 border-r-2 border-r-gray-400 border-l-0 border-b-2 border-b-gray-400" data-tabs-target="tab" data-action="click->tabs#change">
+            <p class="bg-transparent inline-block px-12 my-2 font-semibold no-underline" role="tab">Data</p>
+          </div>
+        </div>
+
+        <div class="hidden py-4 px-4 border-l border-b border-r" data-tabs-target="panel">
+          <%= turbo_frame_tag dom_id(@search, :summary), src: [@search.class.name.underscore.split('/').first.to_sym, :sentiments, :summaries, start_date: @start_date.strftime("%Y-%m-%d"), end_date: @end_date.strftime("%Y-%m-%d") ] do %>
+            Analyzing...
+          <% end %>
+        </div>
+        <div class="hidden py-4 border-l border-b border-r" data-tabs-target="panel">
+          <%= column_chart @monthly_average_chart_data, max: 5, title: 'Monthly Average', height: "200px", colors: ['#3f57a6', '#d54309', '#e5a000', '#00a91c', '#864381'] %>
+          <br>
+          <%= line_chart @rolling_average_chart_data, max: 5, title: 'Rolling Average', colors: ['#3f57a6', '#d54309', '#e5a000', '#00a91c', '#864381'] %>
+          <p class="text-xs border-b-2 border-black pb-1">Rolling Average calculates the average starting on the oldest date and ending on the newest date</p>
+          <br>
+          <%= line_chart @non_average_chart_data, title: 'Daily Reviews', colors: ['#3f57a6', '#d54309', '#e5a000', '#00a91c', '#864381'] %>
+        </div>
+        <div class="hidden py-4 px-4 border-l border-b border-r" data-tabs-target="panel">
+          <%= render SearchResultTableComponent.new(search: @search) %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
+

@@ -1,0 +1,38 @@
+<%= turbo_frame_tag dom_id(@search, :summary) do %>
+  <div class="flex flex-col">
+    <% if @error %>
+      <%= @error %>
+    <% else %>
+      <% @conversation&.each do |message| %>
+        <% if message[:type] == 'user' %>
+          <div class="grid">
+            <div style="background-color: #2378c3" class="prose p-2 max-w-[75%] bg-blue-400 text-white rounded justify-self-end" %>
+              <%= raw @markdown.render(message[:content]) %>
+            </div>
+          </div>
+        <% else %>
+          <div class="grid">
+            <div style="background-color: #edeff0"  class="prose p-2 max-w-[100%] text-black rounded justify-self-start" %>
+              <%= raw @markdown.render(message[:content]) %>
+            </div>
+          </div>
+        <% end %>
+        <br>
+      <% end %>
+      </div>
+      <%= form_with url: [@search.class.name.underscore.split('/').first.to_sym, :sentiments, :summaries, start_date: @start_date, end_date: @end_date] do |form| %>
+        <% @conversation.each do |message| %>
+          <%= form.hidden_field 'summary[conversation][][type]', value: message[:type] %>
+          <%= form.hidden_field 'summary[conversation][][content]', value: message[:content] %>
+        <% end %>
+          <div>
+            <%= form.text_area 'summary[content]',
+            placeholder: 'Type your response here... ',
+            class: 'focus:border-black focus:ring-0' %>
+          </div>
+          <div class="sm:pt-5">
+            <%= form.va_submit 'Send' %>
+          </div>
+      <% end %>
+    <% end %>
+<% end %>

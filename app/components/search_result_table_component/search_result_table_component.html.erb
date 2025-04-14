@@ -1,0 +1,43 @@
+<div class="mt-8" data-controller="file-generator fireworks" data-file-generator-name-value="<%= source %>-search-results">
+  <div class="sm:flex sm:items-center justify-end">
+    <div class="mt-4 sm:mt-0 sm:ml-16 sm:flex-none">
+      <button type="button"
+              class="<%= yass(btn: :blue) %>"
+              data-action="file-generator#downloadFile fireworks#createShow">
+        Download as .csv
+      </button>
+    </div>
+  </div>
+  <div class="flex overflow-x-auto">
+    <va-table sortable table-type="bordered" data-controller="table-sorer">
+      <va-table-row class="hidden" data-file-generator-target="header">
+        <span>Date</span>
+        <span>Version</span>
+        <span>OS</span>
+        <span>Author</span>
+        <span>Rating</span>
+        <span>Title</span>
+        <span>Tag</span>
+        <span>Content</span>
+        <span>Subreddit</span>
+        <span>URL</span>
+        <span>Upvote Ratio</span>
+      </va-table-row>
+      <% search.results.sort_by(&:posted_date).reverse.each do |result| %>
+        <va-table-row class="hidden" data-file-generator-target="row">
+          <span class="result whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6"><%= result.posted_date.iso8601 %></span>
+          <span class="result <%= row_classes('Version') %>"><%= result.try(:version) %></span>
+          <span class="result <%= row_classes('OS') %>"><%= result.try(:os) %></span>
+          <span class="result <%= row_classes('Author') %>"><%= result.try(:author_name) %></span>
+          <span class="result <%= row_classes('Rating') %>"><%= result.try(:rating) %></span>
+          <span class="result <%= row_classes('Title') %>"><%= result.try(:title) %></span>
+          <span class="result <%= row_classes('Tag') %>"><%= result.try(:tag) %></span>
+          <span class="result <%= row_classes('Content') %>"><%= result.try(:content) %></span>
+          <span class="result <%= row_classes('Subreddit') %>"><%= result.try(:subreddit) %></span>
+          <span class="result <%= row_classes('URL') %>"><%= link_to 'View Post', result.try(:link) || '#', aria: { label: 'External Link: Visit reddit post' }, class: yass(:link, add: 'whitespace-nowrap') %></span>
+          <span class="result <%= row_classes('Upvote_Ratio') %>"><%= result.try(:upvote_ratio) %></span>
+        </va-table-row>
+      <% end %>
+    </va-table>
+  </div>
+</div>

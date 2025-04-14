@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>VA Mobile Feedback Hub</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag 'https://ga.jspm.io/npm:flatpickr@4.6.13/dist/themes/airbnb.css', "data-turbo-track": "reload" %>
+    <meta name="turbo-prefetch" content="false">
+
+    <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_include_tag "application", "data-turbo-track": "reload", type: "module" %>
+  </head>
+
+  <body>
+    <div class="min-h-full">
+      <%= render(NavbarComponent.new) %>
+      <div class="py-5">
+        <main class="container mx-auto mt-5 px-5 flex flex-col">
+          <%= yield %>
+        </main>
+      </div>
+      <%= render(FooterComponent.new) %>
+    </div>
+  </body>
+</html>

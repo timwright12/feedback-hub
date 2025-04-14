@@ -1,0 +1,4 @@
+web: bin/rails server -p 3010 -b 0000
+tailwind_css: bin/rails tailwindcss:watch
+js: bun run build --watch
+css: bun run build:css --watch

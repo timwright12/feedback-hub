@@ -1,0 +1,168 @@
+AllCops:
+  NewCops: disable
+  Exclude:
+    - 'bin/**'
+    - 'db/schema.rb'
+    - 'vendor/bundle/**/*'
+    - 'db/migrate/**'
+  Include:
+    - '**/Gemfile'
+    - '**/*.rb'
+
+Style/Documentation:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+# Bug in 1.11.0
+
+# This cop forces you to put a return at the beginning of a block of code rather than having an if statement
+# whose body carries to the end of the function. For example:
+#
+# def foo
+#   ...
+#   if test
+#     ...
+#   end
+# end
+#
+# would be considered bad, and the cop would force you to put a `return if !test` before that block and
+# then remove the if. The problem is that this hides intent, since the if test does have a purpose in
+# readability, and it could also be easier for future changes to miss the return statement and add code
+# after it expecting it to be executed.
+Style/GuardClause:
+  Enabled: false
+
+# This is pretty much the same thing as the one above. Inside a loop, it forces you to use next to skip
+# iteration rather than using an if block that runs to the end of the loop, and it suffers from the same
+# problems as above.
+Style/Next:
+  Enabled: false
+
+Naming/VariableNumber:
+  Enabled: false
+
+# This forces you to replace things like: `[1, 2, 3].length == 0` with `[1,2,3].empty?`. The problem is that
+# not all things that implement length also implement empty? so you will get errors that cannot be resolved,
+# and the cop will encourage you to do things that are incorrect.
+Style/ZeroLengthPredicate:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 130
+  Exclude:
+    - 'Gemfile'
+    - 'app/models/play_store/client.rb'
+    - 'app/controllers/sentiments/summaries_controller.rb'
+
+Metrics/MethodLength:
+  Max: 20
+  Exclude:
+    - 'app/models/play_store/client.rb'
+    - 'app/controllers/sentiments/summaries_controller.rb'
+
+Metrics/ClassLength:
+  Max: 400
+
+# removing rule because get_session implies HTTP GET, and informs method
+Naming/AccessorMethodName:
+  Enabled: false
+
+# This file does not need to be snake case
+Naming/FileName:
+  Exclude:
+    - '**/Gemfile'
+
+# We should try to use StandardError, but some errors like timeout inherit from Exception (beware)
+Style/RescueStandardError:
+  EnforcedStyle: implicit
+
+# The suggestions here don't seem to make sense in most cases. Skip for now.
+Naming/MemoizedInstanceVariableName:
+  Enabled: false
+
+# The use of variables such as n to represent number, x and y for x-axis and y-axis, el for element,
+# v for value, i for index, and e for error are all standard abbreviations and should be excluded.
+Naming/MethodParameterName:
+  Enabled: false
+
+# Added in v0.81
+Lint/RaiseException:
+  Enabled: true
+
+Lint/StructNewOverride:
+  Enabled: true
+
+Style/HashEachMethods:
+  Enabled: true
+
+Style/HashTransformKeys:
+  Enabled: true
+
+Style/HashTransformValues:
+  Enabled: true
+
+# Added in v0.82
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: true
+
+Style/ExponentialNotation:
+  Enabled: true
+
+# Added in v0.83
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled: true
+
+Style/SlicingWithRange:
+  Enabled: true
+
+# Added in v0.84
+Lint/DeprecatedOpenSSLConstant:
+  Enabled: true
+
+# This one doesn’t always make sense, it’s mostly the swagger,
+# factories and pact provider states — which need a tear_down block regardless
+Lint/EmptyBlock:
+  Enabled: false
+
+Layout/EmptyLineBetweenDefs:
+  AllowAdjacentOneLineDefs: true
+
+Layout/LineEndStringConcatenationIndentation:
+  Enabled: true
+
+# Added to enable passing initialization parameters through to Request and Response
+Metrics/ParameterLists:
+  Max: 6
+  Exclude:
+    - 'app/models/play_store/client.rb'
+
+# Increase ABC Slightly
+Metrics/AbcSize:
+  Max: 25
+  Exclude:
+    - 'app/models/play_store/client.rb'
+    - 'app/models/play_store/search.rb'
+    - 'app/models/app_store/client.rb'
+    - 'app/models/reddit/sync.rb'
+
+Metrics/PerceivedComplexity:
+  Exclude:
+    - 'app/models/play_store/client.rb'
+    - 'app/models/app_store/client.rb'
+    - 'app/controllers/sentiments/summaries_controller.rb'
+
+
+Metrics/CyclomaticComplexity:
+  Max: 10
+
+Lint/MissingSuper:
+  Exclude:
+    - 'app/components/**/*.rb'
+
+Metrics/BlockLength:
+  Exclude:
+    - 'config/environments/development.rb'
+    - 'config/environments/staging.rb'
+    - 'config/environments/production.rb'

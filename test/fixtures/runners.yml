@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined. If you add columns to the
+# model remove the "{}" from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+app_store_runner:
+  start_date: '2024-02-08'
+  end_date: '2024-02-08 23:59:59'
+  completed: true
+  source: :app_store
+
+play_store_runner:
+  start_date: '2024-02-08'
+  end_date: '2024-02-08 23:59:59'
+  completed: true
+  source: :play_store
+
+reddit_runner:
+  start_date: '2024-02-08'
+  end_date: '2024-02-08 23:59:59'
+  completed: true
+  source: :reddit

@@ -1,0 +1,30 @@
+<div class="flex flex-col w-full">
+  <h1 class="pb-6 align-middle text-center">Number of Searches (PST)</h1>
+  <%= form_with url: analytics_path,
+                method: :get,
+                class: 'py-6 mx-auto flex flex-inline items-center',
+                data: {
+                  controller: 'date-range-picker',
+                  date_range_picker_mode: 'range',
+                  date_range_picker_default_date: [@start_date, @end_date],
+                  date_range_picker_allow_input: false,
+                  date_range_picker_submit_form_value: true
+                } do |form| %>
+    <%= form.text_field :start_date,
+                        value: @start_date,
+                        class: yass(input: :text_field),
+                        data: {
+                          date_range_picker_target: 'start'
+                        } %>
+    <span class="px-3 font-bold text-2xl">-</span>
+    <%= form.text_field :end_date,
+                        value: @end_date,
+                        class: yass(input: :text_field),
+                        data: {
+                          date_range_picker_target: 'end',
+                        } %>
+  <% end %>
+  <%=
+    line_chart @chart_data, colors: ['#3f57a6', '#d54309', '#e5a000', '#00a91c', '#864381']
+  %>
+</div>

@@ -1,0 +1,8 @@
+play_store_sync:
+  class: PlayStoreSyncJob
+  # args: [{ force_sync: true }]
+  schedule: every day at 9am
+app_store_sync:
+  class: AppStoreSyncJob
+  # args: [{ force_sync: true}]
+  schedule: every day at 9am

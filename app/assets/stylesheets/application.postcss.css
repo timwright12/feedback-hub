@@ -1,0 +1,25 @@
+/* Entry point for your PostCSS build */
+@import '@department-of-veterans-affairs/formation/dist/formation.min.css';
+@import '@department-of-veterans-affairs/component-library/dist/main.css';
+
+a {
+  color: var(--vads-color-link) !important;
+
+  &:active {
+    color: var(--vads-color-link-active) !important;
+  }
+
+  &:hover {
+    color: inherit !important;
+    background-color: rgba(0,0,0,0.05) !important;
+  }
+
+  &:visited {
+    color: var(--vads-color-link-visited) !important;
+  }
+
+  &:focus {
+    color: inherit !important;
+    outline: 2px solid var(--vads-color-action-focus-on-light) !important;
+  }
+}

@@ -1,0 +1,530 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://itunes.apple.com/us/rss/customerreviews/id=1559609596/sortBy=mostRecent/json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      User-Agent:
+      - rest-client/2.1.0 (darwin22 arm64) ruby/3.2.1p31
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - itunes.apple.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Apple-Jingle-Correlation-Key:
+      - Q6UCBZHMDI6ISKLOJGFLYOJDFM
+      X-Apple-Request-Uuid:
+      - 87a820e4-ec1a-3c89-296e-498abc39232b
+      X-Apple-Translated-Wo-Url:
+      - "/WebObjects/MZStoreServices.woa/ws/RSS/customerreviews/id=1559609596/sortBy=mostRecent/json?cc=us&urlDesc=/customerreviews/id=1559609596/sortBy=mostRecent/json"
+      Apple-Tk:
+      - 'false'
+      X-B3-Spanid:
+      - 7dba33e2ca9fc826
+      Content-Type:
+      - text/javascript; charset=UTF-8
+      B3:
+      - 87a820e4ec1a3c89296e498abc39232b-7dba33e2ca9fc826
+      X-B3-Traceid:
+      - 87a820e4ec1a3c89296e498abc39232b
+      X-Webobjects-Loadaverage:
+      - '0'
+      X-Responding-Instance:
+      - 'MZStoreServices:4079008:::'
+      Apple-Seq:
+      - '0'
+      Access-Control-Allow-Origin:
+      - "*"
+      Apple-Originating-System:
+      - MZStoreServices
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Apple-Orig-Url:
+      - https://mzstoreservices-int.itunes.apple.com/us/rss/customerreviews/id=1559609596/sortBy=mostRecent/json
+      X-Apple-Application-Site:
+      - MR22
+      Apple-Timing-App:
+      - 65 ms
+      X-Apple-Application-Instance:
+      - '4079008'
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Fri, 09 Feb 2024 19:01:08 GMT
+      Content-Length:
+      - '41498'
+      X-Cache:
+      - TCP_MEM_HIT from a104-88-207-142.deploy.akamaitechnologies.com (AkamaiGHost/11.4.1-53905076)
+        (-)
+      X-True-Cache-Key:
+      - "/L/itunes.apple.com/us/rss/customerreviews/id=1559609596/sortBy=mostRecent/json
+        vcd=2897 ci2=///"
+      Connection:
+      - keep-alive
+      X-Apple-Partner:
+      - origin.0
+    body:
+      encoding: UTF-8
+      string: "{\"feed\":{\"author\":{\"name\":{\"label\":\"iTunes Store\"}, \"uri\":{\"label\":\"http://www.apple.com/itunes/\"}},
+        \"entry\":[\n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id1374887250\"},
+        \"name\":{\"label\":\"LambChopMM3\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-02-07T16:20:09-07:00\"},
+        \"im:rating\":{\"label\":\"5\"}, \"im:version\":{\"label\":\"2.20.0\"}, \"id\":{\"label\":\"10914036787\"},
+        \"title\":{\"label\":\"IGY6\"}, \"content\":{\"label\":\"If nothing else we
+        vets take care of us first. Thank you God and country\", \"attributes\":{\"type\":\"text\"}},
+        \"link\":{\"attributes\":{\"rel\":\"related\", \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id288140690\"},
+        \"name\":{\"label\":\"Oldsailor52\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-02-07T14:39:53-07:00\"},
+        \"im:rating\":{\"label\":\"1\"}, \"im:version\":{\"label\":\"2.20.0\"}, \"id\":{\"label\":\"10913807373\"},
+        \"title\":{\"label\":\"Wrong military service information\"}, \"content\":{\"label\":\"This
+        app is useless. My military info is wrong and i cannot get it corrected. Ive
+        sent my DD214 to the Ask VA and nothing has been fixed in over a month. This
+        is deplorable.\", \"attributes\":{\"type\":\"text\"}}, \"link\":{\"attributes\":{\"rel\":\"related\",
+        \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id31694548\"},
+        \"name\":{\"label\":\"Stevensparks1987\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-02-07T05:06:47-07:00\"},
+        \"im:rating\":{\"label\":\"2\"}, \"im:version\":{\"label\":\"2.20.0\"}, \"id\":{\"label\":\"10912153337\"},
+        \"title\":{\"label\":\"App stuck\"}, \"content\":{\"label\":\"This app used
+        to be amazing, but now it hasn’t been able to get passed the loading/sign
+        in screen. It just gets stuck on a loop.  When it worked it was great, but
+        just stopped working a couple weeks ago and it’s very frustrating.\", \"attributes\":{\"type\":\"text\"}},
+        \"link\":{\"attributes\":{\"rel\":\"related\", \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id1183024882\"},
+        \"name\":{\"label\":\"Blfchi71\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-02-06T15:59:35-07:00\"},
+        \"im:rating\":{\"label\":\"4\"}, \"im:version\":{\"label\":\"2.20.0\"}, \"id\":{\"label\":\"10910211380\"},
+        \"title\":{\"label\":\"Appointments not loading!! Please fix asap!\"}, \"content\":{\"label\":\"I
+        love the app as it’s quick & convenient, but as of 2 weeks ago it no longer
+        loads my upcoming appointments. It loads my past appointments, but I need
+        to see my upcoming appointments as I’m on dialysis & have quite a lot of appointments
+        on a weekly basis. Please lmk how to fix this bug. I can go to Va.gov & see
+        all my appointments it’s just faster doing it on the app.\", \"attributes\":{\"type\":\"text\"}},
+        \"link\":{\"attributes\":{\"rel\":\"related\", \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id451893084\"},
+        \"name\":{\"label\":\"Reerdsocal\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-02-06T12:45:17-07:00\"},
+        \"im:rating\":{\"label\":\"5\"}, \"im:version\":{\"label\":\"2.20.0\"}, \"id\":{\"label\":\"10909747153\"},
+        \"title\":{\"label\":\"Four-O\"}, \"content\":{\"label\":\"I love the VA!\\n
+        Like shipmates they’re always there!\\nMuch gratitude and appreciation.\\n
+        Hand saluuuute- two!\", \"attributes\":{\"type\":\"text\"}}, \"link\":{\"attributes\":{\"rel\":\"related\",
+        \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id207847261\"},
+        \"name\":{\"label\":\"Chorizo247\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-02-06T09:56:43-07:00\"},
+        \"im:rating\":{\"label\":\"5\"}, \"im:version\":{\"label\":\"2.20.0\"}, \"id\":{\"label\":\"10909291555\"},
+        \"title\":{\"label\":\"Wow!  Easy!\"}, \"content\":{\"label\":\"A ton of information
+        easily (and quickly) accessed.  I believe the techs got it right this time.\",
+        \"attributes\":{\"type\":\"text\"}}, \"link\":{\"attributes\":{\"rel\":\"related\",
+        \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id1032935619\"},
+        \"name\":{\"label\":\"6Chains\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-02-06T01:29:51-07:00\"},
+        \"im:rating\":{\"label\":\"5\"}, \"im:version\":{\"label\":\"2.20.0\"}, \"id\":{\"label\":\"10907750696\"},
+        \"title\":{\"label\":\"Appeal status\"}, \"content\":{\"label\":\"Using this
+        app to check on my appeal status check in daily, unfortunately\", \"attributes\":{\"type\":\"text\"}},
+        \"link\":{\"attributes\":{\"rel\":\"related\", \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id1021738795\"},
+        \"name\":{\"label\":\"Hkrafty\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-02-05T11:10:24-07:00\"},
+        \"im:rating\":{\"label\":\"5\"}, \"im:version\":{\"label\":\"2.20.0\"}, \"id\":{\"label\":\"10905643932\"},
+        \"title\":{\"label\":\"Reminders\"}, \"content\":{\"label\":\"Reminders are
+        good, thanks.\", \"attributes\":{\"type\":\"text\"}}, \"link\":{\"attributes\":{\"rel\":\"related\",
+        \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id309837800\"},
+        \"name\":{\"label\":\"vonvixen\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-02-05T10:59:54-07:00\"},
+        \"im:rating\":{\"label\":\"5\"}, \"im:version\":{\"label\":\"2.20.0\"}, \"id\":{\"label\":\"10905615372\"},
+        \"title\":{\"label\":\"So much easier\"}, \"content\":{\"label\":\"Love this
+        app.  It is so much easier to access everything than logging in through a
+        browser.\", \"attributes\":{\"type\":\"text\"}}, \"link\":{\"attributes\":{\"rel\":\"related\",
+        \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id966558504\"},
+        \"name\":{\"label\":\"Suffering in San Antonio\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-02-05T09:16:00-07:00\"},
+        \"im:rating\":{\"label\":\"3\"}, \"im:version\":{\"label\":\"2.20.0\"}, \"id\":{\"label\":\"10905317628\"},
+        \"title\":{\"label\":\"Separation Pay Recoupment\"}, \"content\":{\"label\":\"We
+        think it is disrespectful that the VA takes money back from a veteran that
+        was given to him 33 years ago for involuntary release of service. Then when
+        finally receiving 100% disability after trying for 10 years, they take it
+        all away for 5 months due to some law that shouldn’t even be on the books.
+        Any veteran who is still suffering from injuries sustained during military
+        service after all these years should not be treated this way.\", \"attributes\":{\"type\":\"text\"}},
+        \"link\":{\"attributes\":{\"rel\":\"related\", \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id1252233826\"},
+        \"name\":{\"label\":\"on it 1 up\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-02-03T06:01:40-07:00\"},
+        \"im:rating\":{\"label\":\"5\"}, \"im:version\":{\"label\":\"2.20.0\"}, \"id\":{\"label\":\"10896884548\"},
+        \"title\":{\"label\":\"Kudos\"}, \"content\":{\"label\":\"This VA phone app
+        is invaluable. It is easy to use and shows me information quickly.  Thank
+        you for providing this platform.\\n\\nStephanie Liggans\", \"attributes\":{\"type\":\"text\"}},
+        \"link\":{\"attributes\":{\"rel\":\"related\", \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id30002670\"},
+        \"name\":{\"label\":\"JakobWRX\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-02-03T05:27:45-07:00\"},
+        \"im:rating\":{\"label\":\"1\"}, \"im:version\":{\"label\":\"2.20.0\"}, \"id\":{\"label\":\"10896768294\"},
+        \"title\":{\"label\":\"Poor Access\"}, \"content\":{\"label\":\"The app worked
+        for the most part until 9 months ago. Now you have to sign in exactly like
+        the website every time. It’s much faster to just log in to the website and
+        skip the app. Maybe one day they will fix the login issue.\", \"attributes\":{\"type\":\"text\"}},
+        \"link\":{\"attributes\":{\"rel\":\"related\", \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id786651226\"},
+        \"name\":{\"label\":\"nachobdhbejek\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-02-02T09:16:43-07:00\"},
+        \"im:rating\":{\"label\":\"3\"}, \"im:version\":{\"label\":\"2.20.0\"}, \"id\":{\"label\":\"10893563341\"},
+        \"title\":{\"label\":\"Options\"}, \"content\":{\"label\":\"Would like to
+        have more options as to messaging specialty clinics or other entitles.  At
+        the moment my Primary Care physician asked me to message them for more information.
+        How would I be able to do that when I don’t have them on my drop down list
+        of contacts. In addition, it would be nice to have some kind of portal to
+        communicate between local hospitals and the local VA.\", \"attributes\":{\"type\":\"text\"}},
+        \"link\":{\"attributes\":{\"rel\":\"related\", \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id1086611530\"},
+        \"name\":{\"label\":\"foxs118\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-02-02T08:35:14-07:00\"},
+        \"im:rating\":{\"label\":\"2\"}, \"im:version\":{\"label\":\"2.20.0\"}, \"id\":{\"label\":\"10893426392\"},
+        \"title\":{\"label\":\"Glitch\"}, \"content\":{\"label\":\"Creating messages
+        is terrible. I usually use a seperate app to craft messages, and then I paste
+        my messages in to the dialogue box. For the amount of money the American People
+        pay the VA, these apps should not be plagued with basic coding errors.\",
+        \"attributes\":{\"type\":\"text\"}}, \"link\":{\"attributes\":{\"rel\":\"related\",
+        \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id215859542\"},
+        \"name\":{\"label\":\"The dark lord fluffles 97\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-02-02T04:15:57-07:00\"},
+        \"im:rating\":{\"label\":\"1\"}, \"im:version\":{\"label\":\"2.20.0\"}, \"id\":{\"label\":\"10892509706\"},
+        \"title\":{\"label\":\"Stopped functioning after last update 2 daya ago\"},
+        \"content\":{\"label\":\"Appointments have been unavailable since last update...
+        making the app absolutely useless\", \"attributes\":{\"type\":\"text\"}},
+        \"link\":{\"attributes\":{\"rel\":\"related\", \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id111241372\"},
+        \"name\":{\"label\":\"Deadwaffle\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-02-02T00:57:32-07:00\"},
+        \"im:rating\":{\"label\":\"2\"}, \"im:version\":{\"label\":\"2.20.0\"}, \"id\":{\"label\":\"10891934886\"},
+        \"title\":{\"label\":\"Freezes/buffering\"}, \"content\":{\"label\":\"All
+        intentions are appreciated, but the system freezes or buffers way too much.
+        My attention span doesn’t allow me to be patient.\", \"attributes\":{\"type\":\"text\"}},
+        \"link\":{\"attributes\":{\"rel\":\"related\", \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id4537438\"},
+        \"name\":{\"label\":\"Stan Tehee\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-02-01T07:49:32-07:00\"},
+        \"im:rating\":{\"label\":\"3\"}, \"im:version\":{\"label\":\"2.20.0\"}, \"id\":{\"label\":\"10889220288\"},
+        \"title\":{\"label\":\"Better\"}, \"content\":{\"label\":\"This is a lot better
+        then it used to be, but it still glitches a lot. Some days I can’t use it
+        at all.\", \"attributes\":{\"type\":\"text\"}}, \"link\":{\"attributes\":{\"rel\":\"related\",
+        \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id19332739\"},
+        \"name\":{\"label\":\"GMaxFlorida\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-02-01T06:27:22-07:00\"},
+        \"im:rating\":{\"label\":\"5\"}, \"im:version\":{\"label\":\"2.20.0\"}, \"id\":{\"label\":\"10888934087\"},
+        \"title\":{\"label\":\"Wow!!!  How great is this!!!\"}, \"content\":{\"label\":\"This
+        new app is a really great improvement over the Browser app!\\n\\nIt has most
+        all the functions of the browser app but is so much easier to get into.\",
+        \"attributes\":{\"type\":\"text\"}}, \"link\":{\"attributes\":{\"rel\":\"related\",
+        \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id893237122\"},
+        \"name\":{\"label\":\"skdjfjfbdhshdu\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-01-31T16:14:06-07:00\"},
+        \"im:rating\":{\"label\":\"1\"}, \"im:version\":{\"label\":\"2.20.0\"}, \"id\":{\"label\":\"10886586482\"},
+        \"title\":{\"label\":\"Sooo many issues\"}, \"content\":{\"label\":\"Not working,
+        not seeing my providers in the messages area, constantly logging me out, what’s
+        the point in having this app if it is not benefiting me?\", \"attributes\":{\"type\":\"text\"}},
+        \"link\":{\"attributes\":{\"rel\":\"related\", \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id368932322\"},
+        \"name\":{\"label\":\"Jim Sandifer\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-01-31T08:42:49-07:00\"},
+        \"im:rating\":{\"label\":\"4\"}, \"im:version\":{\"label\":\"2.20.0\"}, \"id\":{\"label\":\"10885423728\"},
+        \"title\":{\"label\":\"Rating app\"}, \"content\":{\"label\":\"This app is
+        pretty user-friendly, except for how to navigate to travel pay Section of
+        the app there needs to be an icon of some sort to click on to be easily accessible,
+        seeing that would be used more often, unless that was the intent.\", \"attributes\":{\"type\":\"text\"}},
+        \"link\":{\"attributes\":{\"rel\":\"related\", \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id427331078\"},
+        \"name\":{\"label\":\"maxxqq\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-01-31T08:09:18-07:00\"},
+        \"im:rating\":{\"label\":\"5\"}, \"im:version\":{\"label\":\"2.20.0\"}, \"id\":{\"label\":\"10885313973\"},
+        \"title\":{\"label\":\"Great for ordering prescription refills\"}, \"content\":{\"label\":\"This
+        app is much easier to both logon and to order refills than the typical Myhealthevet
+        site. Easily the best government app I’ve seen on iPhone.\", \"attributes\":{\"type\":\"text\"}},
+        \"link\":{\"attributes\":{\"rel\":\"related\", \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id33749614\"},
+        \"name\":{\"label\":\"Hankmeister\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-01-30T19:52:24-07:00\"},
+        \"im:rating\":{\"label\":\"4\"}, \"im:version\":{\"label\":\"2.20.0\"}, \"id\":{\"label\":\"10883261482\"},
+        \"title\":{\"label\":\"Works Great While It Works\"}, \"content\":{\"label\":\"App
+        is much quicker and more user friendly than the website.  However, it seems
+        to forget my password monthly and I have to submit a ‘forgot my password’
+        request each time. And I know with 100 percent certainty that I have the correct
+        password.\", \"attributes\":{\"type\":\"text\"}}, \"link\":{\"attributes\":{\"rel\":\"related\",
+        \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id694418131\"},
+        \"name\":{\"label\":\"vononthemoon\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-01-30T11:24:13-07:00\"},
+        \"im:rating\":{\"label\":\"4\"}, \"im:version\":{\"label\":\"2.20.0\"}, \"id\":{\"label\":\"10882018420\"},
+        \"title\":{\"label\":\"Great app\"}, \"content\":{\"label\":\"Great application
+        to manage and view you claims, appointments and prescriptions. Also you can
+        view your payment history and claim letters. I just wish you were able to
+        see pending payments just as you would on the VA.gov website. That would take
+        this app from great to Amazing and 5 stars.\", \"attributes\":{\"type\":\"text\"}},
+        \"link\":{\"attributes\":{\"rel\":\"related\", \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id650476819\"},
+        \"name\":{\"label\":\"SMAG44\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-01-30T07:16:18-07:00\"},
+        \"im:rating\":{\"label\":\"5\"}, \"im:version\":{\"label\":\"2.20.0\"}, \"id\":{\"label\":\"10881312618\"},
+        \"title\":{\"label\":\"VA.GOV\"}, \"content\":{\"label\":\"This app makes
+        it very easy to obtain the required info that I needed. So easy! Thank you!\",
+        \"attributes\":{\"type\":\"text\"}}, \"link\":{\"attributes\":{\"rel\":\"related\",
+        \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id334721258\"},
+        \"name\":{\"label\":\"Bama#62\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-01-30T05:37:22-07:00\"},
+        \"im:rating\":{\"label\":\"1\"}, \"im:version\":{\"label\":\"2.19.0\"}, \"id\":{\"label\":\"10881001305\"},
+        \"title\":{\"label\":\"Info not correct\"}, \"content\":{\"label\":\"Can’t
+        find stuff you need on here\", \"attributes\":{\"type\":\"text\"}}, \"link\":{\"attributes\":{\"rel\":\"related\",
+        \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id167102586\"},
+        \"name\":{\"label\":\"Yeassir\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-01-29T14:41:32-07:00\"},
+        \"im:rating\":{\"label\":\"3\"}, \"im:version\":{\"label\":\"2.19.0\"}, \"id\":{\"label\":\"10878890055\"},
+        \"title\":{\"label\":\"Depends On What You Need\"}, \"content\":{\"label\":\"You
+        can do a lot on the app, which is great. But if your trying to check the status
+        of a claim, don’t waste your time. Doesn’t seem like they update it frequently.
+        Either that are they just aren’t working on claims for 3-4 months at a time.\",
+        \"attributes\":{\"type\":\"text\"}}, \"link\":{\"attributes\":{\"rel\":\"related\",
+        \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id105716033\"},
+        \"name\":{\"label\":\"Scooter7402\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-01-29T12:55:21-07:00\"},
+        \"im:rating\":{\"label\":\"5\"}, \"im:version\":{\"label\":\"2.19.0\"}, \"id\":{\"label\":\"10878645187\"},
+        \"title\":{\"label\":\"VA App\"}, \"content\":{\"label\":\"This app has made
+        my VA experience a lot better than it was before I had the app.\", \"attributes\":{\"type\":\"text\"}},
+        \"link\":{\"attributes\":{\"rel\":\"related\", \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id1085338821\"},
+        \"name\":{\"label\":\"TitanCocytus\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-01-28T13:34:30-07:00\"},
+        \"im:rating\":{\"label\":\"1\"}, \"im:version\":{\"label\":\"2.19.0\"}, \"id\":{\"label\":\"10875136543\"},
+        \"title\":{\"label\":\"Unable to log in\"}, \"content\":{\"label\":\"For the
+        past year the app has failed to let me log in. I had to download chrome and
+        log in on the browser. App will open white screen and shows no log in options.
+        Face ID was working until that happened.\", \"attributes\":{\"type\":\"text\"}},
+        \"link\":{\"attributes\":{\"rel\":\"related\", \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id24191578\"},
+        \"name\":{\"label\":\"DXFocused\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-01-28T08:31:04-07:00\"},
+        \"im:rating\":{\"label\":\"5\"}, \"im:version\":{\"label\":\"2.19.0\"}, \"id\":{\"label\":\"10874258092\"},
+        \"title\":{\"label\":\"My Experience\"}, \"content\":{\"label\":\"I like the
+        set up and ease of use on this app, but it has a few bugs. It freezes frequently
+        and it often says that the app is not available at this time.\", \"attributes\":{\"type\":\"text\"}},
+        \"link\":{\"attributes\":{\"rel\":\"related\", \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id281443311\"},
+        \"name\":{\"label\":\"Zellmosel\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-01-27T19:50:04-07:00\"},
+        \"im:rating\":{\"label\":\"5\"}, \"im:version\":{\"label\":\"2.19.0\"}, \"id\":{\"label\":\"10872208670\"},
+        \"title\":{\"label\":\"Super Easy to Use, Downtime Excessive\"}, \"content\":{\"label\":\"Can’t
+        say enough for the simplicity and relevent info it has.  Irritating that it
+        goes down every night for about 12 hours of maintenance.  No other app I know
+        of does that.  Really VA?\", \"attributes\":{\"type\":\"text\"}}, \"link\":{\"attributes\":{\"rel\":\"related\",
+        \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id176762607\"},
+        \"name\":{\"label\":\"bigfootbillb\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-01-26T14:22:56-07:00\"},
+        \"im:rating\":{\"label\":\"1\"}, \"im:version\":{\"label\":\"2.19.0\"}, \"id\":{\"label\":\"10867579795\"},
+        \"title\":{\"label\":\"Log on is very PTSD\"}, \"content\":{\"label\":\"Why
+        2 step\", \"attributes\":{\"type\":\"text\"}}, \"link\":{\"attributes\":{\"rel\":\"related\",
+        \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id1156359578\"},
+        \"name\":{\"label\":\"B2XZ1\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-01-26T13:19:00-07:00\"},
+        \"im:rating\":{\"label\":\"5\"}, \"im:version\":{\"label\":\"2.19.0\"}, \"id\":{\"label\":\"10867423707\"},
+        \"title\":{\"label\":\"OUTSTANDING\"}, \"content\":{\"label\":\"Everything
+        in my pocket and very intuitive.\", \"attributes\":{\"type\":\"text\"}}, \"link\":{\"attributes\":{\"rel\":\"related\",
+        \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id710616710\"},
+        \"name\":{\"label\":\"USS Vogelgesang.\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-01-26T07:13:38-07:00\"},
+        \"im:rating\":{\"label\":\"5\"}, \"im:version\":{\"label\":\"2.19.0\"}, \"id\":{\"label\":\"10866398049\"},
+        \"title\":{\"label\":\"Evaluation\"}, \"content\":{\"label\":\"The Paterson
+        out patient clinic does an outstanding job in taking care of their patients.
+        The employees at the front desk are friendly efficient and a credit to the
+        operation.  The nurses, doctors and support staff are dedicated and take excellent
+        care of their patients. Emails are answered promptly. Thank you Merci for
+        that. Wishing all of the staff the very best. Thank you for being there for
+        me.  You are all appreciated.  \\nJohn Thomas.\", \"attributes\":{\"type\":\"text\"}},
+        \"link\":{\"attributes\":{\"rel\":\"related\", \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id247288974\"},
+        \"name\":{\"label\":\"who knew that\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-01-25T14:48:04-07:00\"},
+        \"im:rating\":{\"label\":\"5\"}, \"im:version\":{\"label\":\"2.19.0\"}, \"id\":{\"label\":\"10863905026\"},
+        \"title\":{\"label\":\"Great improvement !\"}, \"content\":{\"label\":\"The
+        site is great now easy to travel into each separate category. Love it\", \"attributes\":{\"type\":\"text\"}},
+        \"link\":{\"attributes\":{\"rel\":\"related\", \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id42404502\"},
+        \"name\":{\"label\":\"coolskim\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-01-25T09:31:52-07:00\"},
+        \"im:rating\":{\"label\":\"5\"}, \"im:version\":{\"label\":\"2.19.0\"}, \"id\":{\"label\":\"10863091121\"},
+        \"title\":{\"label\":\"VA claim\"}, \"content\":{\"label\":\"I was approved
+        for VA disability claim within 5 months. Not 100% but I will continue to pursue
+        that goal.\", \"attributes\":{\"type\":\"text\"}}, \"link\":{\"attributes\":{\"rel\":\"related\",
+        \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id173999774\"},
+        \"name\":{\"label\":\"pop parisi\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-01-25T07:27:55-07:00\"},
+        \"im:rating\":{\"label\":\"5\"}, \"im:version\":{\"label\":\"2.19.0\"}, \"id\":{\"label\":\"10862710603\"},
+        \"title\":{\"label\":\"App use easy.\"}, \"content\":{\"label\":\"Great improvement
+        keep up the good work.\", \"attributes\":{\"type\":\"text\"}}, \"link\":{\"attributes\":{\"rel\":\"related\",
+        \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id42085794\"},
+        \"name\":{\"label\":\"Bravo to the VA\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-01-23T09:13:16-07:00\"},
+        \"im:rating\":{\"label\":\"5\"}, \"im:version\":{\"label\":\"2.19.0\"}, \"id\":{\"label\":\"10855538655\"},
+        \"title\":{\"label\":\"Excellent medical service\"}, \"content\":{\"label\":\"Primary
+        care provider and specialists have provided great service.  Prompt and efficient
+        in several clinics I’ve attended in Florida and North Carolina.  Thanks to
+        all these medical professionals.\", \"attributes\":{\"type\":\"text\"}}, \"link\":{\"attributes\":{\"rel\":\"related\",
+        \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id212342759\"},
+        \"name\":{\"label\":\"44 marsh\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-01-23T04:25:46-07:00\"},
+        \"im:rating\":{\"label\":\"5\"}, \"im:version\":{\"label\":\"2.19.0\"}, \"id\":{\"label\":\"10854642075\"},
+        \"title\":{\"label\":\"Apps improving\"}, \"content\":{\"label\":\"The VA
+        Apps are getting easier and easier\", \"attributes\":{\"type\":\"text\"}},
+        \"link\":{\"attributes\":{\"rel\":\"related\", \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id14069863\"},
+        \"name\":{\"label\":\"Warurmonk\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-01-22T14:37:31-07:00\"},
+        \"im:rating\":{\"label\":\"3\"}, \"im:version\":{\"label\":\"2.19.0\"}, \"id\":{\"label\":\"10852709626\"},
+        \"title\":{\"label\":\"Not in same galaxy as MyHeatheVet.\"}, \"content\":{\"label\":\"That
+        sums it up nicely \U0001F64F\", \"attributes\":{\"type\":\"text\"}}, \"link\":{\"attributes\":{\"rel\":\"related\",
+        \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id143679686\"},
+        \"name\":{\"label\":\"Caribbean Jim\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-01-22T09:39:03-07:00\"},
+        \"im:rating\":{\"label\":\"5\"}, \"im:version\":{\"label\":\"2.19.0\"}, \"id\":{\"label\":\"10851927909\"},
+        \"title\":{\"label\":\"Great app\"}, \"content\":{\"label\":\"Easy to use
+        for Secure Messaging and Rx refills.\", \"attributes\":{\"type\":\"text\"}},
+        \"link\":{\"attributes\":{\"rel\":\"related\", \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id1252810826\"},
+        \"name\":{\"label\":\"heavenly.45\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-01-21T10:26:34-07:00\"},
+        \"im:rating\":{\"label\":\"5\"}, \"im:version\":{\"label\":\"2.19.0\"}, \"id\":{\"label\":\"10848265189\"},
+        \"title\":{\"label\":\"Great software\"}, \"content\":{\"label\":\"How cool
+        is this va software???  Works great, should have developed 10 years ago\",
+        \"attributes\":{\"type\":\"text\"}}, \"link\":{\"attributes\":{\"rel\":\"related\",
+        \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id1334316740\"},
+        \"name\":{\"label\":\"DW-83\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-01-21T08:59:09-07:00\"},
+        \"im:rating\":{\"label\":\"1\"}, \"im:version\":{\"label\":\"2.19.0\"}, \"id\":{\"label\":\"10847982826\"},
+        \"title\":{\"label\":\"Terrible app\"}, \"content\":{\"label\":\"My wife and
+        I are both veterans and the app doesn’t distinguish for our appointments\",
+        \"attributes\":{\"type\":\"text\"}}, \"link\":{\"attributes\":{\"rel\":\"related\",
+        \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id427165495\"},
+        \"name\":{\"label\":\"NoMoMap\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-01-21T07:38:45-07:00\"},
+        \"im:rating\":{\"label\":\"1\"}, \"im:version\":{\"label\":\"2.19.0\"}, \"id\":{\"label\":\"10847709314\"},
+        \"title\":{\"label\":\"Rarely loads past the opening screen\"}, \"content\":{\"label\":\"I’ve
+        been trying to use this app for several weeks.  Only twice (probably 10% of
+        my attempts) have I ever got past the “Please wait while we load the application
+        for you” screen.  I’ve let that spinning blue/white circle cook for hours.
+        \ It would be much more helpful if at some point the screen changed to an
+        explanation as to why the app is stuck and perhaps a recommendation as to
+        how to succeed at accomplishing the desired task.  At least wish me a nice
+        day or tell me to piss off, but to keep spinning is just annoying.  My only
+        recourse is pressing the blue “FEEDBACK” button, which I’ve done many times.
+        \ Feedback feels like I’m talking to teenage daughters: I provide input but
+        receive an eye roll with no anticipated behavior modification. The two times
+        I got past the opening screen were productive—I like the app when it works,
+        but 10% success is unsat.  \U0001F601 Have a nice day!\", \"attributes\":{\"type\":\"text\"}},
+        \"link\":{\"attributes\":{\"rel\":\"related\", \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id1065936162\"},
+        \"name\":{\"label\":\"shegwheihsbd\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-01-20T06:53:27-07:00\"},
+        \"im:rating\":{\"label\":\"1\"}, \"im:version\":{\"label\":\"2.19.0\"}, \"id\":{\"label\":\"10843547535\"},
+        \"title\":{\"label\":\"Needs a lot of improvements\"}, \"content\":{\"label\":\"Needs
+        a lot of improvements\", \"attributes\":{\"type\":\"text\"}}, \"link\":{\"attributes\":{\"rel\":\"related\",
+        \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id1297453772\"},
+        \"name\":{\"label\":\"Gonzo496ci\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-01-19T12:14:01-07:00\"},
+        \"im:rating\":{\"label\":\"5\"}, \"im:version\":{\"label\":\"2.19.0\"}, \"id\":{\"label\":\"10840659607\"},
+        \"title\":{\"label\":\"Communication\"}, \"content\":{\"label\":\"I am able
+        to do refills message deal with appointments and so much more in between visits
+        with doctors This brings order to chaos Well done\", \"attributes\":{\"type\":\"text\"}},
+        \"link\":{\"attributes\":{\"rel\":\"related\", \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id34204682\"},
+        \"name\":{\"label\":\"lscottthom\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-01-19T08:03:40-07:00\"},
+        \"im:rating\":{\"label\":\"3\"}, \"im:version\":{\"label\":\"2.19.0\"}, \"id\":{\"label\":\"10839939935\"},
+        \"title\":{\"label\":\"VA seems to be making things harder\"}, \"content\":{\"label\":\"I
+        used the specific VA prescription app until it was rolled into this app, which
+        worked great. It is not easier to use this app to renew prescriptions - why
+        change what already works well? Also, the logout button is buried in the settings
+        menu - it should be accessible from any screen in the app.\", \"attributes\":{\"type\":\"text\"}},
+        \"link\":{\"attributes\":{\"rel\":\"related\", \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id423203838\"},
+        \"name\":{\"label\":\"Macclocc87\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-01-18T17:56:02-07:00\"},
+        \"im:rating\":{\"label\":\"1\"}, \"im:version\":{\"label\":\"2.19.0\"}, \"id\":{\"label\":\"10837758630\"},
+        \"title\":{\"label\":\"Need better claim processors\"}, \"content\":{\"label\":\"Honestly
+        I know this is a fact because my ex-wife works for Va benefits claims out
+        in St. Louis. We need more people that’s military friendly hire the same veterans
+        that served. A lot of these people don’t give 1 carrot about what most veterans
+        are facing in life. They just click in and collect a paycheck. I seen this
+        first hand\", \"attributes\":{\"type\":\"text\"}}, \"link\":{\"attributes\":{\"rel\":\"related\",
+        \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id406295135\"},
+        \"name\":{\"label\":\"MeddlinWITHmediocrity\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-01-17T18:48:16-07:00\"},
+        \"im:rating\":{\"label\":\"2\"}, \"im:version\":{\"label\":\"2.19.0\"}, \"id\":{\"label\":\"10834236333\"},
+        \"title\":{\"label\":\"VA APP\"}, \"content\":{\"label\":\"I honestly do not
+        know where to begin imagining the creators of this app get the balls to request
+        feedback to this app. Their annoying curiosity or actual no shame to their
+        sloppy game whatever it is it generates a request for feedback almost as regularly
+        as the claims tool is unavailable. Anymore its pissing me off that I need
+        something from somewhere or something jusr shy of mediocre\", \"attributes\":{\"type\":\"text\"}},
+        \"link\":{\"attributes\":{\"rel\":\"related\", \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id139942756\"},
+        \"name\":{\"label\":\"Meatus20\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-01-17T11:34:55-07:00\"},
+        \"im:rating\":{\"label\":\"4\"}, \"im:version\":{\"label\":\"2.19.0\"}, \"id\":{\"label\":\"10833198265\"},
+        \"title\":{\"label\":\"Improved Functionality\"}, \"content\":{\"label\":\"This
+        app makes reorders for prescriptions and sending and receiving messages so
+        much easier than the website and phone system. It’s only a pain to login and
+        some uploading file issues.\", \"attributes\":{\"type\":\"text\"}}, \"link\":{\"attributes\":{\"rel\":\"related\",
+        \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}, \n{\"author\":{\"uri\":{\"label\":\"https://itunes.apple.com/us/reviews/id1519851031\"},
+        \"name\":{\"label\":\"Airforce dame\"}, \"label\":\"\"}, \"updated\":{\"label\":\"2024-01-17T10:08:11-07:00\"},
+        \"im:rating\":{\"label\":\"5\"}, \"im:version\":{\"label\":\"2.19.0\"}, \"id\":{\"label\":\"10832967426\"},
+        \"title\":{\"label\":\"Reviewed my Babs L\"}, \"content\":{\"label\":\"This
+        site is most helpful. I am older and there has been difficulty trying to complete
+        the tasks I have to do. \\nIt seems that when I am typing a secured message
+        to anyone I get the message almost complete and for some reason the message
+        just disappears. \\nCan you please let me know what the heck’s going on? It
+        is soooo frustrating. \\nPlease keep in mind those of us that are older. \\nBabsbluvd\",
+        \"attributes\":{\"type\":\"text\"}}, \"link\":{\"attributes\":{\"rel\":\"related\",
+        \"href\":\"https://itunes.apple.com/us/review?id=1559609596&type=Purple%20Software\"}},
+        \"im:voteSum\":{\"label\":\"0\"}, \"im:contentType\":{\"attributes\":{\"term\":\"Application\",
+        \"label\":\"Application\"}}, \"im:voteCount\":{\"label\":\"0\"}}], \"updated\":{\"label\":\"2024-02-09T10:58:38-07:00\"},
+        \"rights\":{\"label\":\"Copyright 2008 Apple Inc.\"}, \"title\":{\"label\":\"iTunes
+        Store: Customer Reviews\"}, \"icon\":{\"label\":\"http://itunes.apple.com/favicon.ico\"},
+        \"link\":[\n{\"attributes\":{\"rel\":\"alternate\", \"type\":\"text/html\",
+        \"href\":\"https://music.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?cc=us&id=1\"}},
+        \n{\"attributes\":{\"rel\":\"self\", \"href\":\"https://mzstoreservices-int.itunes.apple.com/us/rss/customerreviews/id=1559609596/sortBy=mostRecent/json\"}},
+        \n{\"attributes\":{\"rel\":\"first\", \"href\":\"https://itunes.apple.com/us/rss/customerreviews/page=1/id=1559609596/sortby=mostrecent/xml?urlDesc=/customerreviews/id=1559609596/sortBy=mostRecent/json\"}},
+        \n{\"attributes\":{\"rel\":\"last\", \"href\":\"https://itunes.apple.com/us/rss/customerreviews/page=10/id=1559609596/sortby=mostrecent/xml?urlDesc=/customerreviews/id=1559609596/sortBy=mostRecent/json\"}},
+        \n{\"attributes\":{\"rel\":\"previous\", \"href\":\"https://itunes.apple.com/us/rss/customerreviews/page=1/id=1559609596/sortby=mostrecent/xml?urlDesc=/customerreviews/id=1559609596/sortBy=mostRecent/json\"}},
+        \n{\"attributes\":{\"rel\":\"next\", \"href\":\"https://itunes.apple.com/us/rss/customerreviews/page=2/id=1559609596/sortby=mostrecent/xml?urlDesc=/customerreviews/id=1559609596/sortBy=mostRecent/json\"}}],
+        \"id\":{\"label\":\"https://mzstoreservices-int.itunes.apple.com/us/rss/customerreviews/id=1559609596/sortBy=mostRecent/json\"}}}"
+  recorded_at: Fri, 09 Feb 2024 19:01:08 GMT
+recorded_with: VCR 6.2.0
